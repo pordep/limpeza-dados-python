@@ -19,5 +19,6 @@ df['valor'] = pd.to_numeric(df['valor'], errors = 'coerce')
 mediana = df['valor'].median()
 
 df['valor'] = df['valor'].fillna(mediana)
+df['status'] = df['valor'].apply(lambda x: 'VERIFICAR' if x > 50000 else 'OK')
 
 print(df)
