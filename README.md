@@ -9,4 +9,4 @@ Script para praticar o que um Engenheiro de Dados faz no dia a dia.
 * **Lambda:** Função de uma linha só para marcar o que é valor suspeito (acima de 50k).
 
 ### Objetivos:
-Garantir que segurança do código e que os cálculos fizessem sentido para o negócio, sem que um único valor alto estragasse toda a média dos clientes.
+Garantir segurança do código e que os cálculos fizessem sentido para o negócio, sem que um único valor alto estragasse toda a média dos clientes.
