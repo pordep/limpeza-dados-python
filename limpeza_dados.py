@@ -21,4 +21,6 @@ mediana = df['valor'].median()
 df['valor'] = df['valor'].fillna(mediana)
 df['status'] = df['valor'].apply(lambda x: 'VERIFICAR' if x > 50000 else 'OK')
 
+# Exportando para Excel
+df.to_excel('limpeza_dados.xlsx', index=False, sheet_name='transacoes')
 print(df)
